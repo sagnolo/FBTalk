@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "548076154174",
+    "project_id": "fbtalk-97c7a",
+    "storage_bucket": "fbtalk-97c7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548076154174:android:1528a9cf67c51cc190506f",
+        "android_client_info": {
+          "package_name": "com.test.fbtalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548076154174-c8oqoq3sd849v4haq48icnj2hoibrhpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSWzBYlkYhXyEzX7YJj9K4bkGMSKRgNHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548076154174-c8oqoq3sd849v4haq48icnj2hoibrhpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

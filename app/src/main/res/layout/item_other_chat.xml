@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/item_profile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/item_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textColor="#333333"
+        android:layout_toRightOf="@+id/item_profile"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/item_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello android"
+        android:layout_below="@+id/item_nickname"
+        android:layout_toRightOf="@id/item_profile"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/background_othertext"
+        android:padding="10dp"
+        android:maxWidth="250dp"
+        android:textColor="#333333"/>
+    <TextView
+        android:id="@+id/item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13:35"
+        android:textSize="12sp"
+        android:layout_toRightOf="@+id/item_message"
+        android:layout_marginLeft="8dp"
+        android:layout_alignBottom="@id/item_message"/>
+</RelativeLayout>
+ 
